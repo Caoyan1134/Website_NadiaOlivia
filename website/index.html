@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="images/logofix.jpg" alt="Library Logo">
+        </div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Featured">Featured</a></li>
+            <li><a href="#Arrival">Arrival</a></li>
+            <li><a href="#Reviews">Reviews</a></li>
+            <li><a href="#Blog">Blog</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="Home">
+        <div class="home-content" data-aos="fade-left">
+            <h1>Wellcome To Our Library !!!</h1>
+            <p>Di sinilah semua cerita bermula. Selamat datang di perpustakaan, tempat mimpi dan pengetahuan bertemu.</p>
+        </div>
+    </section>
+    
+
+
+    <section id="About" data-aos="fade-right">
+
+        <h2>About Our Library</h2>
+        <div class="shadow">
+        <p>Perpustakaan ini didirikan sebagai tempat di mana siapa pun bisa menemukan inspirasi, memperluas pengetahuan, dan menikmati dunia bacaan yang menyenangkan. Kami percaya bahwa membaca bukan hanya kegiatan akademis, tetapi juga jendela menuju imajinasi, kreativitas, dan pemahaman yang lebih dalam tentang dunia.
+            Koleksi kami mencakup ribuan buku dari berbagai bidang, mulai dari fiksi, sejarah, ilmu pengetahuan, hingga biografi tokoh-tokoh inspiratif. Kami juga menyediakan buku-buku pelajaran, majalah, dan e-book yang dapat diakses secara digital untuk mendukung kegiatan belajar para pelajar seperti kamu. Setiap koleksi kami dipilih dengan teliti agar sesuai dengan minat dan kebutuhan berbagai kalangan—baik untuk siswa SD, SMP, SMA, maupun masyarakat umum.
+            Selain menyediakan bahan bacaan, perpustakaan ini juga menjadi tempat berkumpul, berdiskusi, dan berkarya. Kami rutin mengadakan kegiatan menarik seperti lomba menulis cerpen, bedah buku, kelas literasi digital, serta diskusi film dari buku-buku terkenal. Semua kegiatan ini dirancang agar para pengunjung tidak hanya membaca, tetapi juga terlibat secara aktif dalam dunia literasi.
+            Kami ingin menciptakan suasana yang nyaman dan ramah, di mana kamu bisa belajar dengan tenang, bertanya jika tidak paham, atau sekadar duduk sambil membaca buku favoritmu. Tim pustakawan kami juga siap membantu merekomendasikan buku yang sesuai dengan minatmu, atau membimbingmu dalam mencari referensi tugas sekolah.
+            Bagi kami, perpustakaan bukan hanya tempat untuk meminjam buku, tetapi juga rumah kedua bagi para pencari ilmu. Jadi, silakan datang, jelajahi setiap rak, dan biarkan dirimu larut dalam cerita-cerita luar biasa yang menunggumu. Karena di sinilah petualanganmu sebagai pembaca dimulai.</p>
+        </div>
+        </section>
+
+
+    <section id="Featured" data-aos="fade-left">
+        <h2>Featured Books</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="images/buku1.jpg" alt="Book 1">
+                <h3>172 Days </h3>
+                <p> Nadzira Shafa</p>
+                <button class="btn-detail" onclick="openModal('modal1')">Detail</button>
+            </div>
+            <div class="book">
+                <img src="images/buku2.jpg" alt="Book 2">
+                <h3>Dikta dan Hukum</h3>
+                <p> Yudas ISkariot</p>
+            </div>
+            <div class="book">
+                <img src="images/buku3.jpg" alt="Book 2">
+                <h3>Bukan Buku Nikah</h3>
+                <p> Ria Ricis</p>
+            </div>
+            <div class="book">
+                <img src="images/buku4.jpg" alt="Book 2">
+                <h3>Cinta itu Luka</h3>
+                <p> Eka Kurniawan</p>
+            </div>
+            <div class="book">
+                <img src="images/buku5.jpg" alt="Book 2">
+                <h3>Sumur</h3>
+                <p> Eka Kurniawan</p>
+            </div>
+            <div class="book">
+                <img src="images/buku6.jpg" alt="Book 2">
+                <h3>Cinta itu Luka</h3>
+                <p> Ziggy zesya</p>
+            </div>
+            <div class="book">
+                <img src="images/buku7.jpg" alt="Book 2">
+                <h3>Mari pergi jauh</h3>
+                <p> ziggy sesya</p>
+            </div>
+            <div class="book">
+                <img src="images/buku8.jpg" alt="Book 2">
+                <h3>Ayat Ayat Cinta</h3>
+                <p> Hadi Susanto</p>
+            </div>
+            <div class="book">
+                <img src="images/buku9.jpg" alt="Book 2">
+                <h3>Jodoh Terbaik</h3>
+                <p> Cheryy  Mieta</p>
+            </div>
+            <div class="book">
+                <img src="images/buku10.jpg" alt="Book 2">
+                <h3>Jalan Saja</h3>
+                <p> Gilar Senka</p>
+            </div>
+            <div class="book">
+                <img src="images/buku11.jpg" alt="Book 2">
+                <h3>Layangan Putus</h3>
+                <p> Mommy ASF</p>
+            </div>
+            <div class="book">
+                <img src="images/buku12.jpg" alt="Book 2">
+                <h3>Kekasih Musim Gugur</h3>
+                <p> Eka Kurniawan</p>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="Arrival" data-aos="fade-right">
+        <h2>New Book</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="images/nbuk1.jpg" alt="New Book">
+                <h3>Hidden Potential</h3>
+                <p>Adam Grant</p>
+            </div>
+            <div class="book">
+                <img src="images/nbuk2.jpg" alt="New Book">
+                <h3>Young Marriage</h3>
+                <p>Rena Mayriska</p>
+            </div>
+            <div class="book">
+                <img src="images/nbuk3.jpg" alt="New Book">
+                <h3>The Women</h3>
+                <p>Kristin Hannah</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Reviews" data-aos="fade-left">
+        <h2>User Reviews</h2>
+        <p>"Buku nya Bagus Banget!" - Yuda</p>
+        <p>"Semua bukunya lengkap bikin betah!" - Rose</p>
+        <p>"kapan nih update buku terbaru!" - Att</p>
+        <p>"Makasi buat webnyaaa!" - Demons</p>
+        <p>"Pembuat web nya memang the best!!" - Exe</p>
+        <p>"AWOKAWOKAWOK!" - Nadia</p>
+    </section>
+
+ 
+    <section id="Blog">
+        <h2>Library Blog</h2>
+        <article>
+            <h3>How Reading Improves Your Life</h3>
+            <p>Reading can reduce stress, boost knowledge, and enhance focus...</p>
+        </article>
+    </section>
+
+ 
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 Digital Library. @NadiaOlivia.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,  
+        once: false      
+      });
+    </script>
+    
+    
+    
+</body>
+</html>
